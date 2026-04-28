@@ -1,0 +1,13 @@
+[package]
+name = "desktop-media"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+wry = "0.47"
+winit = "0.30"
+image = "0.25"
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1"
