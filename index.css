@@ -1,0 +1,73 @@
+    :root {
+      --bg-start: #0d0620;
+      --bg-mid: #2a0a3e;
+      --bg-end: #1a0530;
+      --yt: #ff0000;
+      --twitch: #9146ff;
+      --kick: #53fc18;
+      --netflix: #e50914;
+      --disney: #00b7c2;
+      --hbo: #ffffff;
+      --text: #ffffff;
+      --card-bg: #0a0010;
+      --glow-blur: 18px;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(ellipse at 30% 40%, var(--bg-mid) 0%, var(--bg-start) 60%, var(--bg-end) 100%);
+      font-family: 'Nunito', sans-serif;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(3rem, 8vw, 5.5rem);
+      color: var(--text);
+      letter-spacing: 0.06em;
+      text-shadow: 0 0 40px rgba(180,80,255,0.4);
+      margin-bottom: 2.5rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.1rem;
+    }
+
+    .btn {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--card-bg);
+      color: var(--text);
+      font-family: 'Nunito', sans-serif;
+      font-weight: 800;
+      font-size: clamp(1rem, 2.5vw, 1.25rem);
+      letter-spacing: 0.03em;
+      padding: 1rem 2.2rem;
+      border-radius: 12px;
+      border: 2.5px solid var(--border-color, #fff);
+      cursor: pointer;
+      text-decoration: none;
+      outline: none;
+      user-select: none;
+      box-shadow: none;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.container {
+  text-align: center;
+}
+
+.btn:hover {
+  transform: scale(1.07) translateY(-3px);
+  box-shadow: 0 0 var(--glow-blur) var(--border-color), 0 6px 24px rgba(0,0,0,0.5);
+}
+
+    .youtube  { --border-color: var(--yt); }
+    .twitch   { --border-color: var(--twitch); }
+    .kick    { --border-color: var(--kick); }
+    .netflix  { --border-color: var(--netflix); }
+    .disney   { --border-color: var(--disney); }
+    .hbo      { --border-color: var(--hbo); }
