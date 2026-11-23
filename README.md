@@ -1,8 +1,8 @@
 <p>
-  <a href="https://www.youtube.com/@CSATORNANEV">
+  <a href="https://www.youtube.com/@CSATORNANEV" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Tutorial" />
   </a>
-  <a href="https://dajdon.hu">
+  <a href="https://dajdon.hu" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/dajdon.hu-FFFFFF?style=for-the-badge&logoColor=black&labelColor=FFFFFF&color=FFFFFF" alt="dajdon.hu" />
   </a>
 </p>
